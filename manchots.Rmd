@@ -1,6 +1,6 @@
 ---
 title: "Etude sur les manchots"
-author: "MP Etienne et al"
+author: "MP Etienne, Armelle et Marion"
 date: "9/2/2021"
 output: html_document
 ---
@@ -28,5 +28,6 @@ data("penguins")
 penguins %>% 
   ggplot() + aes(x= bill_length_mm, y = bill_depth_mm) + 
   geom_point(aes(col = species))
+
 ```
 
