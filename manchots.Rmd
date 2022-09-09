@@ -1,0 +1,21 @@
+---
+title: "Etude sur les manchots"
+author: "MP Etienne et al"
+date: "9/2/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction 
+
+Le  [Dr. Kristen Gorman](https://www.uaf.edu/cfos/people/faculty/detail/kristen-gorman.php) et la [station Palmer en Antarctique](https://pal.lternet.edu/) sont membres  de a member of [ Long Term Ecological Research Network](https://lternet.edu/) et ont collectés un jeu de données portant sur 344 manchots appatenant à 3espèces différentes. Ces données sont disponibles dans le package [palmerpenguins](https://allisonhorst.github.io/palmerpenguins/). Ce package peut être installé à l'aide de la commande
+
+```{r install_package, eval = FALSE}
+install.packages('palmerpenguins)
+```
+
+L'objectif de cette classe est de proposer des représentations graphiques de ces données en collaborant à l'aide de l'outil git.
+
