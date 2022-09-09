@@ -29,5 +29,13 @@ penguins %>%
   ggplot() + aes(x= bill_length_mm, y = bill_depth_mm) + 
   geom_point(aes(col = species))
 
+
+
+```
+
+```{r}
+library(car)
+mod <- lm(bill_depth_mm~species, data = penguins)
+Anova(mod)
 ```
 
